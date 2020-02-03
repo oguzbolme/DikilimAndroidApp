@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:background="@android:color/holo_orange_light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/image_view_instagram"
+            android:src="@drawable/instagram"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foreground="?android:selectableItemBackground"/>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/image_view_linkedin"
+            android:src="@drawable/linkedin"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:foreground="?android:selectableItemBackground"/>
+
+    </LinearLayout>
+
+</FrameLayout>

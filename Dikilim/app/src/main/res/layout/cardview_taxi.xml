@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:background="@drawable/loading"
+            android:id="@+id/image_view_taxi_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <TextView
+            android:id="@+id/textview_taxi_shop_name"
+            android:paddingTop="10dp"
+            android:fontFamily="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Taxi Adı"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/image_view_call_taxi"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/cardview_frame_bottom"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/telephone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:text="Ara"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/image_view_taxi_location"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/cardview_frame_bottom"
+                android:orientation="vertical"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/map"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:text="Konumu Gör"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "615224360419",
+    "firebase_url": "https://dikilim-daf7f.firebaseio.com",
+    "project_id": "dikilim-daf7f",
+    "storage_bucket": "dikilim-daf7f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615224360419:android:ccf00baa85da2d384874d6",
+        "android_client_info": {
+          "package_name": "com.ozibolme.dikilim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615224360419-7hkdb8mm5r3e8j96bhufj5je8oql9qe4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ozibolme.dikilim",
+            "certificate_hash": "70068ebddfb39f47d227024ac043dd8a69e0c7bd"
+          }
+        },
+        {
+          "client_id": "615224360419-apectdee3v53kuve8hf17g696qmra4va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8r4H8XWWsLCC8MDvPdtOul_T6yxQn9TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615224360419-apectdee3v53kuve8hf17g696qmra4va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:615224360419:android:fbb18e1919bac470",
+        "android_client_info": {
+          "package_name": "com.ozibolme.dikilimapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "615224360419-nqpd5lhkj6bmf1ob9jnvmrudd23d6j5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ozibolme.dikilimapp",
+            "certificate_hash": "70068ebddfb39f47d227024ac043dd8a69e0c7bd"
+          }
+        },
+        {
+          "client_id": "615224360419-apectdee3v53kuve8hf17g696qmra4va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB8r4H8XWWsLCC8MDvPdtOul_T6yxQn9TA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "615224360419-apectdee3v53kuve8hf17g696qmra4va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

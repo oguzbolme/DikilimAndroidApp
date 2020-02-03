@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/textview_lesson_name"
+            android:fontFamily="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Ders Adı"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/textview_lesson_description"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Ders İçeriği ve Açıklaması: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/textview_teacher_name_surname"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Öğretmen Adı ve Soyadı: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/textview_teacher_infos"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Öğretmen Bilgileri: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:id="@+id/textview_teacher_fee"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/holo_blue_dark"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Ders Ücreti: "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="3"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:background="@drawable/loading"
+                    android:id="@+id/image_view_teacher_photo"
+                    android:layout_gravity="center"
+                    android:layout_width="75dp"
+                    android:layout_height="75dp"/>
+
+                <ImageView
+                    android:layout_marginTop="15dp"
+                    android:id="@+id/image_view_call_teacher"
+                    android:layout_gravity="center"
+                    android:src="@drawable/telephone"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:foreground="?android:selectableItemBackground"/>
+
+                <TextView
+                    android:layout_gravity="center"
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:text="Ara"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

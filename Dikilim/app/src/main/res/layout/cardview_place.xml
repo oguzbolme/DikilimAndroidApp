@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+    app:cardCornerRadius="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:background="@android:color/holo_orange_light"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.viewpager.widget.ViewPager
+            android:background="@drawable/loading"
+            android:id="@+id/image_view_place_photo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"/>
+
+        <me.relex.circleindicator.CircleIndicator
+            app:ci_drawable="@android:color/holo_blue_light"
+            app:ci_drawable_unselected="@android:color/holo_blue_dark"
+            android:id="@+id/circle_indicator_place"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"/>
+
+        <TextView
+            android:id="@+id/textview_place_name"
+            android:fontFamily="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="25sp"
+            android:textAlignment="center"
+            android:text="Kafe Adı"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/textview_place_description"
+            android:fontFamily="serif"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:text="Açıklama: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:id="@+id/image_view_place_location"
+                android:layout_margin="10dp"
+                android:padding="10dp"
+                android:background="@drawable/cardview_frame_bottom"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:foreground="?android:selectableItemBackground">
+
+                <ImageView
+                    android:layout_gravity="center"
+                    android:src="@drawable/map"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"/>
+
+                <TextView
+                    android:fontFamily="serif"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:textSize="15sp"
+                    android:textAlignment="center"
+                    android:text="Konumu Gör"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:padding="5dp"
+    android:background="@android:color/holo_orange_light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="  Dikilim, İzmir'in güzel bir ilçesi olan Dikili'nin hem yerel halk hem de dışarıdan gelen insanların hayatlarını kolaylaştırmaya yarayan bir uygulamadır."
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_marginBottom="10dp"
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="  İletişim butonuna tıklayarak bana ulaşabilir ve ilan, haber, işletme reklamı, sponsorluk, istek, şikayet gibi arzularınızı instagram veya linkedin hesaplarıma iletebilirsiniz."
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:layout_weight="1"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="  Uygulamayı paylaşarak ve Google Play'de puanlayarak bana destek olabilirsiniz.Yetmediyse Instagram'da DM'den IBAN da verebilirim. :D"
+                android:textColor="@android:color/black"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

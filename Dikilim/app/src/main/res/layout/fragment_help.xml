@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@android:color/holo_blue_light"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:weightSum="3"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button_top_help_1"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="Dikilim nedir ? Nasıl ilan verebilirim ? Nasıl destek olabilirim ? "
+                android:textColor="@android:color/black"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_top_help_2"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="İletişim"
+                android:textColor="@android:color/black"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <Button
+                android:id="@+id/button_top_help_3"
+                android:fontFamily="serif"
+                android:textStyle="bold"
+                android:text="Jenerik"
+                android:textColor="@android:color/black"
+                android:textAllCaps="false"
+                android:layout_margin="10dp"
+                android:background="@android:color/holo_orange_light"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+        <FrameLayout
+            android:background="@drawable/dikili_kusbakisi"
+            android:id="@+id/frame_layout_help"
+            android:layout_margin="10dp"
+            android:layout_weight="5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
